@@ -1,0 +1,25 @@
+# GCP RAG Multimodal Requirements
+# Install with: pip install -r requirements_gcp_multimodal.txt
+
+# Core GCP libraries
+google-cloud-storage>=2.10.0
+google-cloud-firestore>=2.13.0
+google-cloud-aiplatform>=1.38.0
+
+# Multimodal processing
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Table extraction
+camelot-py[cv]>=0.11.0
+tabula-py>=2.8.0
+
+# System dependencies (install separately):
+# macOS:
+#   brew install tesseract ghostscript
+# Ubuntu:
+#   sudo apt-get install tesseract-ocr ghostscript python3-tk
