@@ -34,13 +34,6 @@ INDEX_ID="projects/YOUR_PROJECT_NUM/locations/REGION/indexes/INDEX_NUM"
 ENDPOINT_ID="projects/YOUR_PROJECT_NUM/locations/REGION/indexEndpoints/ENDPOINT_NUM"
 ```
 
-**Current values (NeuraCities):**
-```bash
-BUCKET_NAME="neuracities-rfps-ne1"
-INDEX_ID="projects/488988912619/locations/northamerica-northeast1/indexes/4617227557031378944"
-ENDPOINT_ID="projects/488988912619/locations/northamerica-northeast1/indexEndpoints/9212482473693282304"
-```
-
 ### 4. Add Your Documents
 
 Organize PDFs in `input/` directory:
